@@ -1,0 +1,27 @@
+# 泛科學 PanSci — 過去兩週 Shorts 分析
+#
+# API 沒有直接的 "Shorts" 篩選，做法：
+#   1. 用 channel-compare 把最近 200 部上傳影片全抓下來（含 Shorts + 一般片）
+#   2. 在 notebook 裡用 pandas 過濾：
+#        published_at >= "2026-04-26" 且 duration_sec <= 60   (純 Shorts)
+#        或 duration_sec <= 180                                (含新版較長 Shorts)
+#
+# 用法：
+#   python main.py channel-compare --preset pansci_shorts --dry-run
+#   python main.py channel-compare --preset pansci_shorts
+#
+# 想順便抓這些影片的留言：
+#   python main.py comments --preset pansci_shorts
+
+channel_compare:
+  channel_ids:
+    - "@PanScitw"   # ⚠️ 跑前先用 channels.list 驗證這個 handle 對不對
+  max_videos_per_channel: 200   # 200 部足以涵蓋過去 2 週所有上傳
+
+comments:
+  video_ids: []
+  video_ids_from: "channel_videos"   # 抓上一步 channel-compare 的影片留言
+  limit: 10                         # 先抓最近 10 部影片的留言（後續可調）
+  max_pages_per_video: 3
+  order: "relevance"
+  fetch_replies: false

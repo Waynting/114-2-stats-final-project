@@ -1,0 +1,6 @@
+# Global settings only. Per-goal scraping configs live in presets/*.yaml.
+# Run `python main.py <goal> --preset <name>` to pick a preset.
+# If --preset is omitted, presets/default.yaml is used.
+
+quota:
+  per_run_budget: 8000

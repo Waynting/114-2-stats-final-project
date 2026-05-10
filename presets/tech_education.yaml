@@ -1,0 +1,29 @@
+# Example: comparing English-language science/education channels.
+# Replace with your real research target.
+
+channel_compare:
+  channel_ids:
+    - "@veritasium"
+    - "@3blue1brown"
+    - "@SmarterEveryDay"
+    - "@minutephysics"
+    - "@StatQuest"
+  max_videos_per_channel: 150
+
+search_top:
+  keywords:
+    - "linear regression tutorial"
+    - "p value explained"
+    - "central limit theorem"
+  region_code: null
+  order: "relevance"
+  max_pages_per_keyword: 2
+  published_after: null
+
+comments:
+  video_ids: []
+  video_ids_from: "channel_videos"
+  limit: 30
+  max_pages_per_video: 3
+  order: "relevance"
+  fetch_replies: false

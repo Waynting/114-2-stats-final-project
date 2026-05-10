@@ -1,0 +1,31 @@
+# Default preset — used when --preset is not specified.
+# Each top-level key matches a goal name in main.py.
+
+search_top:
+  keywords:
+    - "statistics"
+    - "regression analysis"
+    - "data science"
+  region_code: "TW"
+  order: "viewCount"
+  max_pages_per_keyword: 2
+  published_after: null
+
+channel_compare:
+  channel_ids:
+    - "@TED"
+    - "@veritasium"
+  max_videos_per_channel: 200
+
+trending:
+  regions: ["TW", "US", "JP"]
+  category_ids: null
+  max_per_region: 200
+
+comments:
+  video_ids: []
+  video_ids_from: "trending"
+  limit: 20
+  max_pages_per_video: 5
+  order: "relevance"
+  fetch_replies: false

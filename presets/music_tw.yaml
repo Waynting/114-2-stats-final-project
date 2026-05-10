@@ -1,0 +1,17 @@
+# Example: Taiwan music category trending + popular keyword search.
+# category_id 10 = Music (full list: see videoCategories.list response).
+
+trending:
+  regions: ["TW"]
+  category_ids: [10]
+  max_per_region: 200
+
+search_top:
+  keywords:
+    - "華語流行"
+    - "新歌 2026"
+    - "MV"
+  region_code: "TW"
+  order: "viewCount"
+  max_pages_per_keyword: 2
+  published_after: "2026-01-01T00:00:00Z"

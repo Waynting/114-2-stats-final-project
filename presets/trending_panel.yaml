@@ -1,0 +1,16 @@
+# Example: cross-region trending snapshot, run daily for panel data.
+# Pair with cron / launchd to build a longitudinal dataset.
+
+trending:
+  regions: ["TW", "US", "JP", "KR", "GB"]
+  category_ids: null
+  max_per_region: 200
+
+# Optional follow-up: pull comments on the top-N trending videos
+comments:
+  video_ids: []
+  video_ids_from: "trending"
+  limit: 50
+  max_pages_per_video: 3
+  order: "relevance"
+  fetch_replies: false
