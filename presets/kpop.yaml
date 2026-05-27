@@ -1,0 +1,6 @@
+# Kpop（Lablodol 暫不放，待手動補 channel_id）
+channel_compare:
+  channel_ids:
+    - "@kukuo1019"
+    - "@k-chaoliu"
+  max_videos_per_channel: 200

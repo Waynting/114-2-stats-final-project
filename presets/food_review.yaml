@@ -1,0 +1,11 @@
+# 介紹食物（7 個頻道）
+channel_compare:
+  channel_ids:
+    - "@CatQTV"
+    - "@HowHowEat"
+    - "@jimmmypsd"
+    - "@eating3922"
+    - "@thisiskenyoung"
+    - "@hua_foodie"
+    - "@umaguru-tokyo"
+  max_videos_per_channel: 200

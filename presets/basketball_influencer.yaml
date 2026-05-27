@@ -1,0 +1,6 @@
+# 籃球網紅
+channel_compare:
+  channel_ids:
+    - "@肖他11"
+    - "@ehoozeng"
+  max_videos_per_channel: 200

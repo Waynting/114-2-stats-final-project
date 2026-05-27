@@ -1,0 +1,10 @@
+# 時事類：志祺七七 / Johnny Harris / Vox / SubsOverflow / RealFake
+# 長片為主，max_videos_per_channel 拉到 300
+channel_compare:
+  channel_ids:
+    - "@shasha77"
+    - "@johnnyharris"
+    - "@Vox"
+    - "@SubsOverflow"
+    - "@RealFake"
+  max_videos_per_channel: 300

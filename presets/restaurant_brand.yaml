@@ -1,0 +1,7 @@
+# 餐廳/食品品牌頻道（3 個）— Reg/02 既有
+channel_compare:
+  channel_ids:
+    - "@Ju茱莉亞林"
+    - "@Lisa_sung"
+    - "@蜡笔小锋"
+  max_videos_per_channel: 200

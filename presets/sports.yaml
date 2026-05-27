@@ -1,0 +1,11 @@
+# 運動類：NBA / MLB（長片為主，需多抓才有 Shorts 樣本） + 兩個健身頻道
+# max_videos_per_channel: 400（讓 NBA/MLB 拿到夠多 Shorts）
+# 中文 handle 風險最高 — 先 --dry-run 再小規模驗證
+
+channel_compare:
+  channel_ids:
+    - "@NBA"
+    - "@MLB"
+    - "@挖掘肌讲健身"
+    - "@老赵闹健身"
+  max_videos_per_channel: 400

@@ -1,0 +1,24 @@
+# 資料參照
+
+- **使用的 channel_videos CSV**：`data/processed/channel_videos_20260527-065126.csv`
+- **使用的 channels CSV**：`data/processed/channels_20260527-065126.csv`
+- **抓取指令**：`python main.py channel-compare --preset food_review`
+- **抓取日期**：2026-05-27
+- **頻道清單**：
+  - @CatQTV（貓跪妃）— 33.8K subs
+  - @HowHowEat（吃貨豪豪HowHowEat）— 850K subs
+  - @jimmmypsd（智明 Jimmypsd）— 328K subs
+  - @eating3922（E ating）— 1.98K subs，只有 62 部上傳
+  - @thisiskenyoung（This is Ken）— 232K subs
+  - @hua_foodie（冬冬🌸生活美食日記💓）— 34.2K subs
+  - @umaguru-tokyo（うまぐるめ【Japanese Food】）— 196K subs
+- **配額用量**：59 units
+- **抓到列數**：1227
+- **Shorts (duration_sec ≤ 180)**：965 / 1227 = 78.6%
+  - 冬冬🌸生活美食日記💓: 200
+  - うまぐるめ: 200
+  - This is Ken: 194
+  - 智明 Jimmypsd: 165
+  - 貓跪妃: 109
+  - E ating: 62
+  - 吃貨豪豪HowHowEat: 35（長片主導，Shorts 樣本偏少）

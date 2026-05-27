@@ -1,0 +1,6 @@
+# 籃球幹片
+channel_compare:
+  channel_ids:
+    - "@junhongtv"
+    - "@juanmaodonggeqiu"
+  max_videos_per_channel: 200

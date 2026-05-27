@@ -1,0 +1,5 @@
+# 科普類：單頻道 PanSci
+channel_compare:
+  channel_ids:
+    - "@PanScitw"
+  max_videos_per_channel: 200

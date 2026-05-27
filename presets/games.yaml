@@ -1,0 +1,6 @@
+# 遊戲類：Minecraft Shorts 高產量 + 西洋棋
+channel_compare:
+  channel_ids:
+    - "@camman18"
+    - "@GothamChess"
+  max_videos_per_channel: 200
